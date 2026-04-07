@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .loader{
+        
+       /* margin: auto; */
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 20px solid blue;
+        border-top: 20px solid black; 
+        animation: spinAnimate 2s ease-in-out 0s normal infinite;  
+}
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+    /* div{
+        background-color: rgb(0, 255, 17);
+        height: 100px;
+        text-align: center;  
+        align-content: center;
+        color: aliceblue;
+        width: 100px;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        border-radius: 50%;
+        animation-name: colorAnimate;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+
+    } */
+    /* @keyframes colorAnimate{ */
+        /* from{ */
+            /* left: 0px; */
+            /* background-color:rgb(0, 255, 17); ; */
+        /* } */
+        /* to{ */
+            /* left: 1100px;   */
+        /* background-color: brown;      } */
+    /* } */
+
+    /* div:hover{ */
+        /* background-color: red; */
+        /* color: aliceblue; */
+    /* } */
+</style>
+<body>
+    <!-- <div>this is div</div> -->
+     <div class="loader"></div>
+</body>
+</html>

@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    /* width: 100vw; */
+    /* margin: 20px; */
+    
+}
+
+.header {
+    background-color: #D70F64;
+    /* height: 90px; */
+    width: 100%;
+    /* position: sticky; */
+  
+    /* width: 90px; */
+}
+
+.navbar {
+   
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.content {
+    font-size: x-large;
+    display: flex;
+    margin-right: 20px;
+}
+
+.container {
+
+    margin-left: 100px;
+    width: 70%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    word-wrap: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 48px;
+    align-items: center;
+    /* padding: 5px; */
+    line-height: 46px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #D70F64;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    /* margin-left: 10px; */
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    filter: invert(100%);
+    margin-left: 200px;
+    height: 50px;
+    background-image: url("ic-rider-icon.svg");
+    background-repeat: no-repeat;
+}
+
+.icon {
+    margin-left: 50px;
+}
+
+.icon i {
+    position: absolute;
+    top: 1px;
+    font-size: 1.5rem;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.header2 {
+    background-color: rgb(249, 243, 243);
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.icon2 {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.icon2 i {
+
+    font-size: large;
+
+}
+
+.foodpanda {
+    /* header2 is parent and content is centre due to position:absolute and content centre  */
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.logo2 {
+    background-image: url("foodpanda logo.png");
+    height: 50px;
+    /* Adjust height to make it smaller */
+    width: 50px;
+    /* Adjust width to make it smaller */
+    background-size: contain;
+    /* Ensures the logo fits within the container */
+    background-repeat: no-repeat;
+
+}
+
+span {
+    /* margin-left: auto; */
+    color: #D70F64;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+/* BODY SECTION  */
+.body {
+    /* background-color: black; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-section {
+    display: flex;
+    /* justify-content:center; */
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+
+}
+
+.paragraph-section {
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+
+.img-section {
+    height: 100%;
+    width: 50%;
+    /* margin-left: 5px; */
+}
+
+.img {
+    position: absolute;
+    margin-right: 10px;
+    background-image: url("hero.jpg");
+    height: 100%;
+   width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+}
+
+.search input {
+    padding: 20px;
+    border: none;
+    width: 80%;
+    margin-right: 30px;
+}
+
+.search input:hover {
+    border: 0.000001px solid rgb(61, 59, 59);
+
+}
+
+.locate {
+    cursor: pointer;
+    /* padding: 25px; */
+    color: #D70F64;
+}
+
+.body-section {
+    height: 850px;
+    width: 100%;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 2.9rem;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+ .body-section img {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.box {
+    margin-left: 100px;
+    transform: translateY(-250px);
+    background-color: white;
+    border-radius: 10px;
+    height: 380px;
+    width: 580px;
+    /* border: 2px solid #D70F64; */
+}
+
+.text {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 20px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.text p {
+    margin-top: 20px;
+    font-family: "Helvetica";
+}
+
+.button {
+    padding-top: 35px;
+}
+
+.pic-section {
+    height: auto;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.grid-section {
+      margin-left: 35px;
+    height: 95%;
+    align-items: center;
+    width: 95%;
+    /* border: 2px solid goldenrod; */
+}
+.mid-section{
+    height: 100%;
+    width: 95%;
+    /* border: 2px solid yellow; */
+    /* position: absolute; */
+    margin-left: 35px;
+}
+
+.city {
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-row: 2;  */
+    gap: 10px;
+
+}
+
+.city img {
+    margin: 3px;
+    height: 250px;
+    width: 270px;
+    /* border: 2px solid gold; */
+    border-radius: 20px;
+    display: block; /* Ensure the image is treated as a block element */
+}
+
+figcaption {
+    width: max-content;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+     /* margin-top: -60px;  Adjust this value to position the caption properly */
+     transform: translateY(-50px);
+    margin-left: 8px;
+    position: relative; /* Use relative positioning instead of transform */
+    z-index: 1; /* Ensure the caption stays above the image */
+}
+
+
+                         /* app download section  */
+.app-download-section{ 
+    height: 90%;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+} 
+/*  */
+.download-section{
+    background-color: #D70F64;
+    height: 400px;
+    margin: 40px;
+    border-radius: 25px;
+    color: white;
+   display: flex;
+    flex-direction: column; 
+    /*Arrange children vertically */
+   padding: 20px; /* Add some padding */
+   
+
+} 
+.download-text-section {
+    line-height: 1.6rem;
+    margin-top: 70px;
+    height: 140px;
+   /* border: 2px solid green; */
+   width: 40%;
+   display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: space-between; /* Push content to top and bottom */
+}
+h3{
+    margin-left: 20px;
+}
+.download-text-section p{
+    padding: 20px;
+}
+.app-section{
+    width: fit-content;
+    /* border: 2px solid brown; */
+    display: flex;
+    justify-content: flex-start; 
+    /* Align app section to the left */
+    /* margin: 20px; */
+    
+     /* Push app-section to the bottom of download-text-section */
+   
+}
+.apple-brand{
+    margin: 10px;
+    border-radius:10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    
+}
+.add-first{
+    color: white;
+    font-size: 0.8rem;
+ 
+}
+.add-second {
+    font-size: 1.3rem;
+}
+.app-store{
+    margin-left: 10px;
+}
+i{
+    font-size: xx-large;
+}
+.download-pic-section {
+   /* border: 2px solid black; */
+    height: 100%;
+     transform: translateY(-200px);
+    
+}
+
+.download-pic-section img {
+   transform: translateY(-200px);
+  
+}
+ /* LAST SECTION  */
+ .last-section{
+    /* border: 2px solid rgb(104, 5, 38); */
+    /* position: relative; */
+    /* top: 40px; */
+    margin: 15px;
+    height: 100%;
+    width: 100%;
+ }
+ .banner{
+    margin-top: 20px;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+ }
+ .box1{
+    /* border: 2px solid black; */
+    margin-left: 100px;
+    transform: translateY(300px);
+    background-color: white;
+    border-radius: 10px;
+    height: 260px;
+    width: 590px; 
+       }
+
+       /* Question Answer section  */
+.question-ans-section{
+    font-family:  Sans-serif;
+    position:relative;
+    top: 50px;
+   margin: 40px;
+    /* border: 2px solid green; */
+    padding-bottom: 100px;
+}
+.p-h2-section{
+ margin-top: 40px;
+ /* border: 2px solid blueviolet; */
+}
+.question-ans-section p{
+   font-size: 1.1rem;
+    color: rgb(57, 55, 55);
+    padding: 14px;
+    margin-left: 30px;
+    line-height: 1.5rem;
+}
+.question-ans-section h2{
+    color: rgb(35, 34, 34);
+    margin-left: 30px;
+    padding: 10px;
+}
+.question-ans-section h3{
+    color: rgb(35, 34, 34);
+    margin-left: 30px;
+    padding: 10px;
+}
+.question-ans-section p a{
+    color: #D70F64;
+}
+
+/* FOOTER SECTION  */
+footer{
+    margin: 20px;
+    /* border: 2px solid paleturquoise; */
+}
+.footer{
+    /* border: 2px solid purple; */
+ margin: 10px;
+ padding: 10px;
+ display: flex;
+ /* justify-content: space-evenly; */
+}
+.footer a{
+    text-decoration:  underline rgb(109, 106, 106);
+    font-size: 1rem;
+  color: black;
+  padding: 5px;
+  margin: 4px;
+}
+ .footer a:hover{ 
+    text-decoration:  underline rgb(36, 36, 36);
+    font-size: x-large;
+    transition: .5s;
+ }  
+ .footer1{
+    display: flex;
+ justify-content: space-evenly;
+    font-family: sans-serif;
+    color: rgb(70, 64, 64);
+    /* border: 2px solid purple; */
+    margin: 20px;
+    /* padding: 20px; */
+ }
+ .footer1 a{
+    text-decoration: underline rgb(109, 106, 106);
+    font-size: larger;
+    color: rgb(70, 64, 64);
+  padding: 5px;
+  margin: 3px;
+}
+.footer1 a:hover{
+    text-decoration: underline 2px solid rgb(47, 46, 46);
+    color: rgb(59, 54, 54);
+    font-weight: bold;
+}
+ .panel1 ul a{
+    margin-left: 20px;
+    padding: 10px;
+  text-align:start;
+  display: flex;
+  text-decoration: underline rgb(109, 106, 106);
+ }
+ .panel2 ul a{
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    text-decoration: underline rgb(109, 106, 106);
+   }
+   .panel3 ul a{
+     padding: 10px;
+    text-align: start;
+    display: flex;
+    text-decoration: underline rgb(109, 106, 106);
+   }
+
+   .footer-branding{
+    padding: 25px;
+    margin: 50px;
+    display: flex;
+   }
+
+   .foodpanda1 {
+    display: flex;
+    
+}
+.vl{
+    padding: 10px;
+    margin: 10px;
+    border-right: 1px solid rgb(100, 96, 96);
+}
+.delivery-hero{
+    width: 70%;
+}
+.branding i{
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
